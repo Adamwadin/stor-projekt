@@ -179,17 +179,19 @@ body {
 
 .header {
   position: relative;
-  height: 50vh;
+  height: 60vh;
   width: 100%;
   background-image: url(pictures/895719.png);
   overflow: hidden;
-  background-position: center;
+  background-position: center top;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.8), 0 6px 20px 0 rgba(0, 0, 0, 0.89);
   background-size: cover;
+  
 }
 .bottom {
+  height: 40vh;
   position: relative;
-  height: 50vh;
+  margin-top: 0px;
   max-width: 100%;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.8), 0 6px 20px 0 rgba(0, 0, 0, 0.89);
 }
@@ -199,7 +201,9 @@ body {
   margin: 10% auto;
   text-align: center;
   width: fit-content;
+  height: fit-content;
   text-shadow: 6px 4px 5px rgb(3, 3, 3);
+  margin-top: 20px;
 }
 .h2 {
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
@@ -217,7 +221,7 @@ body {
 }
 .rows {
   display: flex;
-  padding-top: 8%;
+  
   width: fit-content;
   margin: 0 auto;
 }
