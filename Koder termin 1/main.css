@@ -1,0 +1,16 @@
+body{
+  background-image: url(html-color-codes-color-tutorials-hero.jpg);
+  background-size: 88;
+  
+}
+.row{
+  
+  min-height: 100vh;
+  color: aliceblue;
+}
+@media screen and (max-width: 768px) {
+  
+  .body{
+    background-image: 100vh;
+  }
+}
